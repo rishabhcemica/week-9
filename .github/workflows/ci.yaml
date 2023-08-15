@@ -13,7 +13,7 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v2
 
-    - name: SSH and deploy2ßß
+    - name: SSH and deploy
       env:
         SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
       run: |
